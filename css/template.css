@@ -1,0 +1,302 @@
+body {
+    padding:10px 20px 150px 20px;
+}
+
+.centerBlock {
+    margin: 0 auto;
+}
+
+.alignJustify{
+    text-align:justify;
+}
+
+.alignRight{
+    text-align:right;
+}
+
+.displayNone{
+    display:none;
+}
+
+.pageTabHeader{
+    padding: 10px 50px 0 0;
+}
+
+.marginTop5{
+    margin-top:5px;
+}
+
+.marginTop10{
+    margin-top:10px;
+}
+
+.marginTop15{
+    margin-top:15px;
+}
+
+.marginBottom10{
+    margin-bottom:10px;
+}
+
+.marginLeft5{
+    margin-left:5px;
+}
+
+.marginLeft15{
+    margin-left:15px;
+}
+
+.marginLeft20{
+    margin-left:20px;
+}
+
+.marginLeft30{
+    margin-left:30px;
+}
+
+.marginRight5{
+    margin-right:5px;
+}
+
+.marginRight15{
+    margin-right:15px;
+}
+
+.paddingLeft30{
+    padding-left:30px;
+}
+
+.vAlignTop{
+    vertical-align:top;
+}
+
+.vAlignMiddle{
+    vertical-align: middle;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.groupName{
+    font-style: italic;
+}
+
+.pointer{
+    cursor:pointer;
+}
+
+.displayInline{
+    display:inline;
+}
+
+.width60{
+    width:60px;
+}
+
+.width80{
+    width:80px;
+}
+
+.width150{
+    width:150px;
+}
+
+.width300{
+    width:300px;
+}
+
+.width100p{
+    width:100%;
+}
+
+.relative{
+    position:relative;
+}
+
+.innerBlock{
+    margin:20px;
+}
+
+.pageHeader{
+    width:100%;
+    border-bottom: 1px #eeeeee solid;
+    margin-bottom: 20px;
+}
+
+.simpleP{
+    margin:0;
+    padding:0;
+}
+
+.simpleP label{
+    font-weight: normal;
+}
+
+#taskRemember{
+    padding:10px 20px;
+}
+
+#taskRepeat{
+    padding:10px 20px;
+}
+
+.tablePropertyName{
+    vertical-align:top;
+    width:100px;
+}
+
+.greyBG{
+    background: #fdfdfd;
+}
+
+.removeBtn{
+    color: #b60101;
+    cursor:pointer;
+}
+
+.removeBtn:hover{
+    color:#FF0000;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    cursor:pointer;
+}
+
+.formElementNameChanged {
+    color: #337ab7;
+}
+
+.formInputChanged {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    color: #337ab7;
+}
+
+.formElementNameWarning {
+    color: #8a6d3b;
+}
+
+.formInputWarning {
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    color: #8a6d3b;
+}
+
+.formElementNameError {
+    color: #a94442;
+}
+
+.formInputError {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+}
+
+.myTask{
+    background-color: #31708f !important;
+    border-color: #337ab7 !important;
+}
+
+.createdTask{
+    background-color: #3c763d !important;
+    border-color: #2b542c !important;
+}
+
+.myTaskText{
+    color: #337ab7;
+}
+
+.createdTaskText{
+    color: #378006;
+}
+
+.status1{
+    color: #a94442;
+}
+.status2{
+    color: #337ab7;
+}
+.status3{
+    color: #3c763d;
+}
+.status4{
+    color: #000000;
+}
+
+/*-- Ссылка в календаре --*/
+a.fc-event{
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+/*-- Поле поиска в dataTables -- */
+/*
+.dataTables_filter input{
+    width:200px !important;
+}
+*/
+
+
+.oneLineBigForm{
+    padding-top: 17px;
+}
+
+.taskHeader{
+    background: #67c2ef !important;
+    font-size:20px;
+}
+
+.taskHeaderText{
+    color: #fff !important;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+}
+
+.taskHeaderUpdated{
+    padding-top:3px;
+    display:none;
+}
+
+.ringDelayed {
+    animation: ringDelayed 5.4s ease infinite;
+    transform-origin: 50% 0%;
+}
+
+@keyframes ringDelayed {
+    0% { transform: rotate(-15deg) }
+    0.74074% { transform: rotate(15deg) }
+    1.48148% { transform: rotate(-18deg) }
+    2.22222% { transform: rotate(18deg) }
+    2.96296% { transform: rotate(-22deg) }
+    3.7037% { transform: rotate(22deg) }
+    4.44444% { transform: rotate(-18deg) }
+    5.18519% { transform: rotate(18deg) }
+    5.92593% { transform: rotate(-12deg) }
+    6.66667% { transform: rotate(12deg) }
+    7.40741% { transform: rotate(0deg) }
+    100% { transform: rotate(0deg) }
+}
+
+#contactBook .popover {
+    width:800px;
+    max-width:800px;
+}
+
+#contactInfo{
+    vertical-align:top;
+    padding-left:50px;
+}
+
+#viewContact{
+    position:fixed;
+}
+
+.hrefSpan{
+    color:#337ab7;
+    cursor:pointer;
+}
+
+.hrefSpan:hover{
+    color:#a94442;
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height: 100%;
+}
+
+#wrapper {
+    position: relative;
+    min-height: 100%;
+}
+
+#pageContent {
+    padding-bottom: 120px;
+}
+
+#content{
+    width:1200px;
+    margin:0 auto;
+}
+
+#techPlace{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    height: 60px;
+    box-shadow: 0 -5px 10px 0 #dddddd;
+    background: url("../main/img/techBackground.jpg");
+}
+
+#techButtonPlace{
+    width:1200px;
+    margin:0 auto;
+    text-align:right;
+    padding: 10px 0;
+}
+
+#makeScreenShot{
+    cursor:pointer;
+    padding:10px;
+    font-weight: bold;
+}
+
+.uppercase{
+    text-transform:uppercase;
+}
+
+.detailBlock{
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 156px;
+    margin: 20px 0;
+    font-size: 14px;
+    border: 1px solid #e0e4f6;
+    background-color: #fcfcfc;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    line-height: 1.3;
+    color: #18202e;
+}
+
+.available {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 8px;
+    font-size: 11px;
+    line-height: 14px;
+    background-color: #2be500;
+}
+
+.detailTable{
+     width:100%;
+}
+
+.detailTable, .detailTable td{
+    padding:0;
+    margin:0;
+}
+
+.detailsTablePhoto{
+    width:145px;
+    height:145px;
+}
+
+.greyText{
+    color: #9d9db6;
+}
+
+.detailName{
+    font-size: 20px;
+    height:70px;
+    font-weight: 600;
+    color: #18202e;
+}
+
+.hPadding{
+    padding:0 15px !important;
+}
+
+.price {
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.link {
+    display: inline-block;
+    color: #18202e;
+    border-bottom: 2px solid #015cb5;
+    font-size: 11px;
+    line-height: 14px;
+    white-space: nowrap;
+    padding-top:3px;
+}
+
+.bottomText{
+    border-left: 1px solid #e0e4f6;
+    height:30px;
+    padding:0 15px !important;
+    white-space: nowrap;
+}

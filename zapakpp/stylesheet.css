@@ -1,0 +1,179 @@
+/* *** FONTS *** */
+
+@font-face {
+    font-family: "Exo2-medium-italic";
+    src: url("fonts/Exo2MediumItalic.eot");
+    src: url("fonts/Exo2MediumItalic.eot?#iefix")format("embedded-opentype"),
+    url("fonts/Exo2MediumItalic.woff") format("woff"),
+    url("fonts/Exo2MediumItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Exo2-medium";
+    src: url("fonts/Exo2Medium.eot");
+    src: url("fonts/Exo2Medium.eot?#iefix")format("embedded-opentype"),
+    url("fonts/Exo2Medium.woff") format("woff"),
+    url("fonts/Exo2Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Exo2-italic";
+    src: url("fonts/Exo2Italic.eot");
+    src: url("fonts/Exo2Italic.eot?#iefix")format("embedded-opentype"),
+    url("fonts/Exo2Italic.woff") format("woff"),
+    url("fonts/Exo2Italic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Exo2-bold-italic';
+    src: url('fonts/exo2bolditalic-webfont.eot');
+    src: url('fonts/exo2bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/exo2bolditalic-webfont.woff2') format('woff2'),
+    url('fonts/exo2bolditalic-webfont.woff') format('woff'),
+    url('fonts/exo2bolditalic-webfont.ttf') format('truetype'),
+    url('fonts/exo2bolditalic-webfont.svg#exo_2_semi_bolditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2-sbold-italic';
+    src: url('fonts/exo2semibolditalic-webfont.eot');
+    src: url('fonts/exo2semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/exo2semibolditalic-webfont.woff2') format('woff2'),
+    url('fonts/exo2semibolditalic-webfont.woff') format('woff'),
+    url('fonts/exo2semibolditalic-webfont.ttf') format('truetype'),
+    url('fonts/exo2semibolditalic-webfont.svg#exo_2_semi_bolditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Exo2-light-italic";
+    src: url("fonts/Exo2LightItalic.eot");
+    src: url("fonts/Exo2LightItalic.eot?#iefix")format("embedded-opentype"),
+    url("fonts/Exo2LightItalic.woff") format("woff"),
+    url("fonts/Exo2LightItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Exo2-bold";
+    src: url("fonts/Exo2Bold.eot");
+    src: url("fonts/Exo2Bold.eot?#iefix")format("embedded-opentype"),
+    url("fonts/Exo2Bold.woff") format("woff"),
+    url("fonts/Exo2Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Exo2";
+    src: url("fonts/Exo2Regular.eot");
+    src: url("fonts/Exo2Regular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/Exo2Regular.woff") format("woff"),
+    url("fonts/Exo2Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height: 100%;
+}
+
+#wrapper {
+    position: relative;
+    min-height: 100%;
+}
+
+#pageContent {
+    padding-bottom: 120px;
+}
+
+#content{
+    width:1195px;
+    margin:0 auto;
+}
+
+#techPlace{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    height: 60px;
+    box-shadow: 0 -5px 10px 0 #dddddd;
+    background: url("../main/img/techBackground.jpg");
+}
+
+#techButtonPlace{
+    width:1195px;
+    margin:0 auto;
+    text-align:right;
+    padding: 10px 0;
+}
+
+#makeScreenShot{
+    cursor:pointer;
+    padding:10px;
+    font-weight: bold;
+}
+
+.detailsTablePhoto{
+    width:31px;
+    height:31px;
+}
+
+#detailsTable{
+    width: 100%;
+    font-family: "Exo2", sans-serif;
+    font-size: 14px;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    border-collapse: collapse;
+    text-align:center;
+    border: 1px solid #e6e6e6;
+}
+
+#detailsTable td{
+    padding: 10px 2px 9px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid #ebebeb;
+    border-collapse: collapse;
+}
+
+#detailsTable th{
+    padding: 11px 2px;
+    border: 1px solid #1157b9;
+    background: #2987f1;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.price{
+    font-family: "Exo2-sbold-italic", sans-serif;
+    font-size: 12px;
+    color: #2dbd2d;
+}
+
+.uppercase{
+    text-transform:uppercase;
+}
+
+.blueFont{
+    color: #2987f2;
+    font-family: "Exo2-italic", sans-serif;
+}

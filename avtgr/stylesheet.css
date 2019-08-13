@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('CenturyGothic.eot?#iefix') format('embedded-opentype'),
+    url('fonts/CenturyGothic.woff') format('woff'),
+    url('fonts/CenturyGothic.ttf')  format('truetype'),
+    url('fonts/CenturyGothic.svg#CenturyGothic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Century-Gothic-Bold';
+    src: url('fonts/Century-Gothic-Bold.eot');
+    src: url('Century-Gothic-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Century-Gothic-Bold.woff') format('woff'),
+    url('fonts/Century-Gothic-Bold.ttf') format('truetype'),
+    url('fonts/Century-Gothic-Bold.svg#Century-Gothic-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height: 100%;
+}
+
+#wrapper {
+    position: relative;
+    min-height: 100%;
+}
+
+#pageContent {
+    padding-bottom: 120px;
+}
+
+#content{
+    width:1170px;
+    margin:0 auto;
+}
+
+#techPlace{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    height: 60px;
+    box-shadow: 0 -5px 10px 0 #dddddd;
+    background: url("../main/img/techBackground.jpg");
+}
+
+#techButtonPlace{
+    width:1170px;
+    margin:0 auto;
+    text-align:right;
+    padding: 10px 0;
+}
+
+#makeScreenShot{
+    cursor:pointer;
+    padding:10px;
+    font-weight: bold;
+}
+
+.detailsTablePhoto{
+    width:70px;
+    height:70px;
+    margin:10px 0;
+}
+
+#detailsTable, #detailsTable td, #detailsTable th{
+    padding:0;
+    margin:0;
+    border-collapse: collapse;
+}
+
+#detailsTable{
+    width:100%;
+    font-family: 'CenturyGothic', sans-serif;
+    font-size:15px;
+}
+
+#detailsTable th{
+    font-family: 'Century-Gothic-Bold', sans-serif;
+    text-align: left;
+    line-height: 18px;
+    color: #09192b;
+    border-bottom: 1px solid #ced1d5;
+    padding:8px 0;
+}
+
+#detailsTable td{
+    border-bottom: 1px solid #ced1d5;
+}
+
+.uppercase{
+    text-transform:uppercase;
+}
+
+.detailName{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.paddingLeft5{
+    padding-left:5px !important;
+}
+
+.paddingLeft20{
+    padding-left:20px !important;
+}
+
+.filial {
+    color: #7F7F7F;
+    font-size: 11px;
+    text-decoration:underline;
+    position: relative;
+}
+
+.filial:after {
+    position: absolute;
+    top: 5px;
+    right: -15px;
+    content: "";
+    background: url(sprite.png) no-repeat -397px 0;
+    height: 5px;
+    width: 8px;
+}
+
+.nowrap{
+    white-space:nowrap;
+}

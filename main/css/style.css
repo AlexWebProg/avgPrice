@@ -1,0 +1,105 @@
+.detailsFormVAlignMiddle{
+    vertical-align:middle !important;
+}
+
+.detailsFormPhotoIcon{
+    color:#2e6da4;
+    cursor:pointer;
+}
+
+.detailsFormPhotoIcon:hover{
+    color:#d9534f;
+}
+
+.detailsFormPhoto{
+    border: 1px solid #dddddd;
+    width:34px;
+    height:34px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.detailsFormPhoto:hover{
+    border-color:#d9534f;
+}
+
+.detailsFormRemoveIcon{
+    color:#ac2925;
+    cursor:pointer;
+}
+
+.detailsFormRemoveIcon:hover{
+    color:#d9534f;
+}
+
+.detailsFormPriceField{
+    text-align:right;
+}
+
+.detailPhoto{
+    cursor:pointer;
+}
+
+.detailPhoto:hover{
+    border-color:#d9534f;
+}
+
+#detailPhotoActive{
+    border-color:#009900 !important;
+    position:relative;
+}
+
+#detailPhotoActive:after {
+    font-family: FontAwesome, sans-serif;
+    content: "\f058";
+    position:absolute;
+    display: block;
+    color:#009900;
+    top:3px;
+    right:7px;
+}
+
+#removePhotoFromDetail{
+    display: none;
+}
+
+#photoChooseHiddenButtons{
+    display: none;
+}
+
+#chooseFile{
+    display: none;
+}
+
+.templateImgTD{
+    width:500px;
+}
+
+.templateFormRadioTD{
+    vertical-align:middle !important;
+    padding-left:30px !important;
+}
+
+.templateForm{
+    width:20px;height:20px;cursor:pointer;
+}
+
+.templateIMG{
+    width:400px;border:1px #eeeeee solid;border-radius:5px;cursor:zoom-in;
+}
+
+.templateDescriptionTD{
+    vertical-align:middle !important;
+}
+
+#templateIMGViewContent{
+    width:1030px;
+}
+
+.fullWidth{
+    width:95%;
+}
+
+tr.templateActiveRow > td {
+    background-color: #ecfce5;
+}
